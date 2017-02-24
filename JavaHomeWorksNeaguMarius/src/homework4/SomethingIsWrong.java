@@ -18,7 +18,7 @@ public class SomethingIsWrong {
                 myRect.width = 40;
                 myRect.height = 50;
                 int area = myRect.width * myRect.height;
-          System.out.println("My Rect`s area is: " + area);
+          System.out.println("My Rect`s area is " + area);
     }
     
 }
