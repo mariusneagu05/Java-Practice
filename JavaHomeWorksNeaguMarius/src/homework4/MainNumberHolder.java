@@ -20,7 +20,7 @@ public class MainNumberHolder {
         instNumberHolder.anInt = 10;
         instNumberHolder.aFloat = 3.5f;
         System.out.println("The value of the int variable is: " + instNumberHolder.anInt);
-        System.out.println("The value of the float variable is: " + instNumberHolder.aFloat);
+        System.out.println("The value of the floating-point variable is: " + instNumberHolder.aFloat);
 
     }
 
