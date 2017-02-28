@@ -67,7 +67,7 @@ public class HelloWorldAnonymousClasses {
         //calling the local classes methods
         englishGreeting.greet();
         frenchGreeting.greet();
-        frenchGreeting.greetSomeone("Pierre!");
+        frenchGreeting.greetSomeone("Pierre de Coubertin!");
         spanishGreeting.greet();
     }
     //main method
