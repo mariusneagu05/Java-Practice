@@ -59,7 +59,7 @@ public class HelloWorldAnonymousClasses {
                 System.out.println("Hola " + name);
             }
         }
-        //creating objects/instances for all the classes
+        //creating objects/instances for all classes
         HelloWorld englishGreeting = new EnglishGreeting();
         HelloWorld frenchGreeting = new FrenchGreeting();
         HelloWorld spanishGreeting = new SpanishGreeting();
