@@ -1,13 +1,12 @@
 /*
- * This application shows you how a keybord imput works
+ * This application shows you how a keybord input works
  */
 package keyboardimput;
 
 /**
- * Simple keyboard imput in Java
+ * Simple keyboard input in Java
  * @author MariusNeagu
  */
-import java.io.InputStream;
 import java.util.Scanner;
 public class KeyboardImput {
 
@@ -18,7 +17,7 @@ public class KeyboardImput {
         Scanner scan = new Scanner (System.in);
         System.out.println("What is your Name?");
         System.out.print("Please type here: ");
-        String name = "Marius";
+        String name = scan.nextLine();
         System.out.println("Hello, " + name + "! This is how keyboard imput works.");
     }
     
