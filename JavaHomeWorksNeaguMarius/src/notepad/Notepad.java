@@ -1,5 +1,5 @@
 /*
- * In this application the method .getRuntime() of Runtime class
+ * In this application the ProcessBuilder
  * launches 3 Notepad files 
  */
 package notepad;
