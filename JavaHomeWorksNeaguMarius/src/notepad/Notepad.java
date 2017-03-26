@@ -4,6 +4,7 @@
  */
 package notepad;
 
+import java.util.*;
 import java.io.*;
 /**
  * Simple Java app which launches 3 Notepad files
