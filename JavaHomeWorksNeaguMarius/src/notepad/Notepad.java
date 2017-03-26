@@ -1,29 +1,30 @@
 /*
- * In this application the ProcessBuilder
- * launches 3 Notepad files 
+ * In this application the method .getRuntime() of Runtime class
+ * launches 3 Notepad files with some text inside
  */
 package notepad;
 
+import java.util.*;
 import java.io.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 /**
  * Simple Java app which launches 3 Notepad files
  * @author MariusNeagu
  */
 class Notepad {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
+        //creating 3 Runtime objects
+        Runtime runnotepad = Runtime.getRuntime();
+        Runtime runnotepad1 = Runtime.getRuntime();
+        Runtime runnotepad2 = Runtime.getRuntime();
+        //using exec method to open the specified notepad files
         try {
-            ProcessBuilder pb;
-            // Use process builder to start 3 processes of notepad
-            pb = new ProcessBuilder("Notepad");
-            Process p1 = pb.start();
-            Process p2 = pb.start();
-            Process p3 = pb.start();
-        } catch (IOException ex) {
-            Logger.getLogger(Notepad.class.getName()).log(Level.SEVERE, "An IO exception is here!", ex);
+            runnotepad.exec("Notepad D:\\SCOALA INFORMALA\\3notepad\\notepad.txt");
+            runnotepad1.exec("Notepad D:\\SCOALA INFORMALA\\3notepad\\notepad1.txt");
+            runnotepad2.exec("Notepad D:\\SCOALA INFORMALA\\3notepad\\notepad2.txt");
+        //catch IOException e
+        } catch (IOException e) {
+            System.out.println(e);
         }
     }
 }
