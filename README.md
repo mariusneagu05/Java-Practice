@@ -1,2 +1,2 @@
 # JavaHomeWorksNeaguMarius
-Teme Java Neagu Marius 
+This is my repository for simple Java apps
