@@ -29,7 +29,7 @@ public class CnpValidator {
     public static void main(String[] args) throws ParseException {
 
         Scanner scan = new Scanner(System.in);
-        boolean dontExitYet = false;
+        boolean run = false;
 
         do {
             System.out.println("Please enter CNP: ");
@@ -68,7 +68,7 @@ public class CnpValidator {
                         //validate birth date
                         if (validateBirthDate(resultDate.substring(1))) {
                             System.out.println("Congratulations, the CNP entered is correct.");
-                            dontExitYet = true;
+                            run = true;
                         } else {
                             System.out.println("Invalid date in CNP, please try again.");
                         }
@@ -77,6 +77,6 @@ public class CnpValidator {
                     }
                 }
             }
-        } while (!dontExitYet);
+        } while (!run);
     }
 }
