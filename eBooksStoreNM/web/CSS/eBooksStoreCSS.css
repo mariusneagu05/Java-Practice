@@ -135,8 +135,8 @@ input[type=password] {
     background: lightyellow;
     width: 120px;
 }
-.inputlarge[type=text] {
-    width: 100px;
+.inputlarge[type=password] {
+    width: 120px;
 }
 input[type=datetime] {
     width: 100px;
